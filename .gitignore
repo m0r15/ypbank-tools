@@ -1,0 +1,12 @@
+
+
+/target
+.cargo/config.toml
+**/*.rs.bk
+cargo-crash.log
+
+# Настройки редактора zed
+.zed/
+
+# Переменные окружения
+.env
