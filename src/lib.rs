@@ -1,9 +1,5 @@
-#[cfg(test)]
-mod tests {
-    use super::*;
+mod error;
+mod format;
 
-    #[test]
-    fn it_works() {
-        todo!()
-    }
-}
+pub use error::Error;
+pub use format::DataFormat;
